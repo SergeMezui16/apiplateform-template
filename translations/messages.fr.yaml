@@ -1,0 +1,4 @@
+percentage_error_message: La valeur "{{ value }}" n'est pas valide. Elle doit contenir un nombre entre 0 et 100.
+phone_number_error_message: La valeur "{{ value }}" n'est pas un numero de téléphone valide !
+role_code_error_message: La valeur "{{ value }}" n'est pas valide. Elle doit commencer par "ROLE_".
+secured_password_error_message: Le mot de passe doit contenir au moins huit caractères, au moins une lettre, un chiffre et un caractère spécial. [ \# ? ! @ $ % ^ & * - ]

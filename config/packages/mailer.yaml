@@ -1,0 +1,4 @@
+framework:
+    mailer:
+        message_bus: false
+        dsn: '%env(MAILER_DSN)%'

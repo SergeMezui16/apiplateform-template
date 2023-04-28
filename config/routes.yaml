@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+api_token:
+    path: /api/token
+    methods: ['POST']
+
+
+api_refresh_token:
+    path: /api/token/refresh
+    methods: [POST]

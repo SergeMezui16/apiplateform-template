@@ -1,0 +1,4 @@
+gesdinet_jwt_refresh_token:
+    return_expiration: true
+    refresh_token_class: App\Entity\RefreshToken
+    ttl: 86400 # 24 hours in second
